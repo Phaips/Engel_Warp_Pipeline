@@ -42,9 +42,9 @@ Two submission modes are available:
 ```
 
 Written by default:
-`--amplitude-contrast` 0.07
-`--spherical-aberration` 2.7
-`--voltage` 300
+`--amplitude-contrast 0.07
+--spherical-aberration 2.7
+--voltage 300`
 
 > One of `--particle-diameter` or `--angular-search` is **required** (mutually exclusive).
 
