@@ -302,7 +302,7 @@ def main():
     args = parse_args()
     warp_dir = Path(args.warp_dir).resolve()
     output_dir = Path(args.output_dir).resolve()
-    recon = warp_dir / "reconstruction"
+    recon = warp_dir / "reconstruction_miss"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     xml_files = [x for x in sorted(warp_dir.glob(args.pattern)) if wanted(x.stem, args.include, args.exclude)]
