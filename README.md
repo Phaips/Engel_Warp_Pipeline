@@ -17,7 +17,7 @@ A compact workflow connecting [Warp/M](https://github.com/warpem/warp), [Miss-Al
 
 ## 1. `submit_warp.sh` — Warp/M and Miss-Alignment
 
-Edit the header block and submit with:
+This script submits a full Warp pipline as well as MissAlignment automatically. All possible variables can be edited in a header block of the shell script.
 
 ```bash
 sbatch submit_warp.sh
