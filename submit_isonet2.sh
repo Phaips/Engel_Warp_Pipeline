@@ -11,8 +11,7 @@
 #SBATCH -e isonet2_%j.err
 #SBATCH -D ./
 
-set -Eeuo pipefail
-shopt -s nullglob
+set -eo pipefail
 
 # =============================================================================
 # USER SETTINGS
